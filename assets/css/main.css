@@ -1922,6 +1922,9 @@ span {
   z-index: 1;
 }
 .instagram-wrapper .instagram-banner-items .banner-image .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   width: 68px;
   height: 68px;
@@ -3584,6 +3587,9 @@ span {
   color: var(--theme);
 }
 .footer-bottom .scroll-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   left: 90.2%;
   top: -40px;
@@ -3596,7 +3602,6 @@ span {
   text-align: center;
   color: var(--white);
   border: 5px solid var(--white);
-  display: inline-block;
   z-index: 99;
 }
 @media (max-width: 1399px) {
@@ -3686,6 +3691,7 @@ span {
   left: 0;
   height: 92px;
   z-index: -1;
+  width: 100%;
 }
 .header-top-section .header-top-shape img {
   width: 100%;

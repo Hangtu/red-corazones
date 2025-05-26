@@ -5210,6 +5210,9 @@ span {
   position: relative;
   display: inline-block;
 }
+.naranja {
+  color: var(--theme) !important;
+}
 .hero-1 .hero-content h5::before {
   position: absolute;
   right: -30px;

@@ -439,6 +439,9 @@ span {
   gap: 20px;
 }
 .about-wrapper .about-content .about-author .author-icon .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 48px;
   line-height: 48px;
@@ -1502,11 +1505,11 @@ span {
   }
 }
 .contact-info-area .contact-info-items .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 65px;
   height: 65px;
-  line-height: 65px;
-  text-align: center;
-  position: relative;
   border: 2px dotted var(--theme);
   border-radius: 50%;
 }
@@ -5280,6 +5283,9 @@ span {
   border-radius: 50%;
   text-align: center;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hero-1 .hero-content .hero-button .video-btn::before {
   position: absolute;

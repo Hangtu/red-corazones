@@ -13,7 +13,7 @@ Version: 1.0.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme: #f39f5f;
+  --theme: #e641a4;
   --theme2: #70a6b1;
   --header: #385469;
   --text: #5c707e;
@@ -603,14 +603,15 @@ span {
   height: 100%;
 }
 .about-activities-wrapper .activities-content .icon-items {
-  display: flex;
-  align-items: center;
   gap: 20px;
 }
 .about-activities-wrapper .activities-content .icon-items:not(:last-child) {
   margin-bottom: 30px;
 }
 .about-activities-wrapper .activities-content .icon-items .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -8550,6 +8551,9 @@ input.main-search-input::placeholder {
   color: var(--white);
 }
 .team-items .team-image .social-profile .plus-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 2;
   cursor: pointer;
   width: 40px;
@@ -8557,7 +8561,6 @@ input.main-search-input::placeholder {
   line-height: 40px;
   text-align: center;
   font-size: 18px;
-  display: inline-block;
   background: transparent;
   border: 1px solid var(--white);
   color: var(--white);
